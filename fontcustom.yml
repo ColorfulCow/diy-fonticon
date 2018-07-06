@@ -1,0 +1,20 @@
+# usage command: fontcustom compile 
+
+font_name: icons
+css_selector: .icon_{{glyph}}
+preprocessor_path: "../fonts"
+autowidth: false
+no_hash: false
+force: true
+debug: false
+quiet: false
+
+input:
+  vectors: svgs
+
+output:
+  fonts: fonts
+  css: styles
+
+templates:
+ - scss
